@@ -1,0 +1,936 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 10%;
+    }
+    .banner_taital {
+        font-size: 42px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+    .mins_text_1 {
+        font-size: 15px;
+    }
+    .mins_text {
+        font-size: 15px;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .jesusroch_text {
+        padding-top: 280px;
+    }
+    .paly_bt {
+        padding-top: 20px;
+    }
+    .padding_10 {
+        padding-left: 6px;
+    }
+    .icon_2 {
+        font-size: 13px;
+    }
+    .movies_menu::after {
+        width: 670px;
+        left: initial;
+        top: -10px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_menu li {
+        padding: 0px 14px;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .code_text {
+        font-size: 23px;
+    }
+    .there_text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #ffffff00;
+    }
+    .banner_taital {
+        width: 100%;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .arrival_text {
+        font-size: 28px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 70px;
+        top: 32px;
+    }
+    .movies_menu::after {
+        width: 670px;
+        left: initial;
+        top: -10px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_menu li {
+        padding: 0px 14px;
+    }
+    .code_text {
+        font-size: 16px;
+    }
+    .there_text {
+        font-size: 14px;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .number_text {
+        margin-top: 40px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #3c0e0e;
+    }
+    .banner_taital {
+        width: 75%;
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .play_icon {
+        display: none;
+    }
+    .jesusroch_text {
+        padding-top: 240px;
+    }
+    .mins_text {
+        width: 100%;
+        font-size: 17px;
+    }
+    .icon_2 {
+        font-size: 15px;
+    }
+    .arrival_text {
+        font-size: 40px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 80px;
+        top: 42px;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .movies_menu li {
+        font-size: 16px;
+        padding: 0px 7px;
+    }
+    .movies_menu::after {
+        width: 510px;
+        text-align: center;
+        right: 0;
+        top: -8px;
+        left: 0px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_main {
+        width: 100%;
+        float: left;
+    }
+    .code_text {
+        font-size: 24px;
+    }
+    .iamge_movies_main {
+        display: initial;
+    }
+    .iamge_movies {
+        margin: 0px;
+    }
+    .newsletter_text {
+        font-size: 34px;
+    }
+    .box_main {
+        width: 100%;
+        padding: 20px;
+    }
+    .email_text {
+        width: 80%;
+    }
+    .right_arrow {
+        width: 20%;
+    }
+    .cooming_section .row {
+        flex-direction: column-reverse;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .image_17 {
+        margin-top: 30px;
+    }
+    .footer_menu li {
+        padding: 0px 17px;
+    }
+    .number_text {
+        margin-top: 0px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .banner_section {
+        background: #3c0e0e;
+    }
+    .banner_taital {
+        width: 95%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_text {
+        width: 100%;
+    }
+    .play_icon {
+        display: none;
+    }
+    .jesusroch_text {
+        padding-top: 280px;
+    }
+    .arrival_text {
+        font-size: 40px;
+    }
+    .arrival_text::after {
+        right: initial;
+        width: 80px;
+        top: 42px;
+    }
+    .movie_main {
+        display: initial;
+    }
+    .mins_text_1 {
+        width: 100%;
+    }
+    .long_text {
+        font-size: 14px;
+    }
+    .movies_menu li {
+        font-size: 18px;
+        padding: 0px 7px;
+    }
+    .movies_menu {
+        width: 100%;
+    }
+    .movies_main {
+        width: 100%;
+        float: left;
+    }
+    .iamge_movies {
+        margin: 0;
+    }
+    .iamge_movies_main {
+        display: initial;
+    }
+    .newsletter_text {
+        font-size: 21px;
+    }
+    .box_main {
+        width: 100%;
+        padding: 20px;
+    }
+    .email_text {
+        width: 80%;
+    }
+    .right_arrow {
+        width: 20%;
+    }
+    .cooming_section .row {
+        flex-direction: column-reverse;
+    }
+    .Cooming_soon_taital {
+        font-size: 30px;
+    }
+    .Cooming_soon_taital::after {
+        right: initial;
+        width: 50px;
+        top: 36px;
+    }
+    .image_17 {
+        margin-top: 30px;
+    }
+    .footer_menu li {
+        padding: 0px 18px;
+    }
+    .image_2 {
+        margin-top: 30px;
+    }
+    .number_text {
+        margin-top: 0px;
+    }
+    .playnow_bt {
+        width: 170px;
+    }
+}
+
+/* ============================================================
+   RESPONSIVE STYLES FOR NEW SECTIONS
+   ============================================================ */
+
+/* FOOTER, WHY CHOOSE, AND MAPS SECTIONS */
+
+/* Desktop and Larger (1200px+) */
+@media (min-width: 1200px) {
+    .footer_section .col-md-4,
+    .footer_section .col-lg-3,
+    .footer_section .col-md-12 {
+        max-width: 280px;
+    }
+}
+
+/* Tablet Large (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer_section {
+        padding: 30px 0;
+    }
+    .footer-title {
+        font-size: 13px;
+        margin-bottom: 15px;
+        padding-bottom: 8px;
+    }
+    .contact-item {
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+    }
+    .contact-icon {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 6px;
+    }
+    .contact-label {
+        font-size: 9px;
+        margin: 0 0 2px 0;
+    }
+    .contact-value {
+        font-size: 11px;
+    }
+    .social-link {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+    .form-control-footer {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+    .btn-send-message,
+    .btn-whatsapp {
+        padding: 7px 12px;
+        font-size: 10px;
+    }
+    .why-icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .why-title {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .why-text {
+        font-size: 12px;
+    }
+    .maps_section iframe {
+        height: 350px;
+    }
+}
+
+/* Tablet Medium (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_section {
+        padding: 25px 0;
+    }
+    .footer_section .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footer_section .col-md-4,
+    .footer_section .col-lg-3,
+    .footer_section .col-md-12 {
+        max-width: 100%;
+        flex: 0 0 50%;
+        padding: 0 15px;
+    }
+    .footer-title {
+        font-size: 12px;
+        margin-bottom: 12px;
+        padding-bottom: 8px;
+    }
+    .contact-item {
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+    }
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .contact-label {
+        font-size: 9px;
+    }
+    .contact-value {
+        font-size: 11px;
+    }
+    .social-media {
+        gap: 8px;
+    }
+    .social-link {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .btn-whatsapp {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .form-control-footer {
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+    .btn-send-message {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .why-choose-item {
+        padding: 25px 20px;
+    }
+    .why-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    .why-title {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .why-text {
+        font-size: 11px;
+    }
+    .maps_section {
+        padding: 50px 0;
+    }
+    .maps_section iframe {
+        height: 300px;
+    }
+}
+
+/* Tablet Small (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .footer_section {
+        padding: 20px 0;
+    }
+    .footer_section .row {
+        flex-wrap: wrap;
+    }
+    .footer_section .col-md-4,
+    .footer_section .col-lg-3,
+    .footer_section .col-md-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 25px;
+    }
+    .footer-title {
+        font-size: 12px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+    }
+    .contact-item {
+        margin-bottom: 12px;
+        padding-bottom: 10px;
+    }
+    .contact-icon {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 8px;
+    }
+    .contact-label {
+        font-size: 10px;
+    }
+    .contact-value {
+        font-size: 12px;
+    }
+    .social-media {
+        gap: 10px;
+    }
+    .social-link {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+    .btn-whatsapp {
+        padding: 8px 12px;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .form-control-footer {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    .btn-send-message {
+        padding: 8px 12px;
+        font-size: 11px;
+    }
+    .why-choose-item {
+        padding: 30px 20px;
+    }
+    .why-icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .why-title {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .why-text {
+        font-size: 12px;
+    }
+    .maps_section {
+        padding: 40px 0;
+    }
+    .maps_section iframe {
+        height: 250px;
+    }
+}
+
+/* Mobile (280px - 575px) */
+@media (max-width: 575px) {
+    .footer_section {
+        padding: 20px 0;
+    }
+    .footer_section .row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer_section .col-md-4,
+    .footer_section .col-lg-3,
+    .footer_section .col-md-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+        padding: 0 10px;
+    }
+    .footer-title {
+        font-size: 11px;
+        margin-bottom: 12px;
+        padding-bottom: 8px;
+        letter-spacing: 0.5px;
+    }
+    .contact-item {
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+    }
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .contact-label {
+        font-size: 8px;
+        letter-spacing: 0.3px;
+    }
+    .contact-value {
+        font-size: 10px;
+    }
+    .social-media {
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+    .social-link {
+        padding: 6px 10px;
+        font-size: 10px;
+        gap: 6px;
+    }
+    .social-link img,
+    .social-icon-svg {
+        width: 16px;
+        height: 16px;
+    }
+    .btn-whatsapp {
+        padding: 6px 10px;
+        font-size: 9px;
+        margin-top: 8px;
+    }
+    .form-control-footer {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+    .btn-send-message {
+        padding: 6px 10px;
+        font-size: 9px;
+        margin-top: 6px;
+    }
+    .why-choose-item {
+        padding: 20px 15px;
+        margin-bottom: 15px;
+    }
+    .why-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 12px;
+    }
+    .why-title {
+        font-size: 11px;
+        margin-bottom: 8px;
+        letter-spacing: 0.8px;
+    }
+    .why-text {
+        font-size: 10px;
+        line-height: 1.6;
+    }
+    .maps_section {
+        padding: 30px 0;
+    }
+    .maps_section h1 {
+        font-size: 24px !important;
+        margin-bottom: 40px !important;
+    }
+    .maps_section iframe {
+        height: 200px;
+        width: 100%;
+    }
+    .footer-map-placeholder {
+        min-height: 100px;
+    }
+}
+
+/* ========== MEJORAS RESPONSIVE GENERALES ========== */
+
+/* --- 1. Ajuste base para todos los contenedores (evita desbordamientos) --- */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- 2. Corrección crítica: columnas sin clase xs (menos de 576px) --- */
+/* Bootstrap 4: si solo usas col-sm-* sin col-12, en <576px el ancho no es 100% */
+@media (max-width: 575px) {
+    .arrival_section .col-sm-6,
+    .arrival_section .col-sm-8,
+    .arrival_section .col-lg-4,
+    .cooming_section .col-md-6,
+    .movies_section .iamge_movies {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    /* Asegura que la grilla de servicios (movies) se apile correctamente */
+    .iamge_movies_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* --- 3. Banner principal en móviles --- */
+@media (max-width: 575px) {
+    .banner_taital {
+        font-size: 28px !important;
+        line-height: 1.2;
+    }
+    .banner_text {
+        font-size: 14px;
+    }
+    .banner_section {
+        padding: 40px 0;
+        background-position: center;
+    }
+}
+
+/* --- 4. Sección "Sobre nosotros" en móviles pequeños --- */
+@media (max-width: 425px) {
+    .arrival_section .image_1,
+    .arrival_section .image_2 {
+        height: 200px;        /* ajusta según tus imágenes */
+        background-size: cover;
+    }
+    .jesusroch_text {
+        font-size: 20px;
+    }
+    .movie_text {
+        font-size: 14px;
+    }
+    .arrival_text {
+        font-size: 24px;
+    }
+}
+
+/* --- 5. Sección de servicios (Movies) en móviles --- */
+@media (max-width: 575px) {
+    .movies_menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .movies_menu ul li {
+        margin: 5px 0;
+    }
+    .code_text {
+        font-size: 16px;
+    }
+    .there_text {
+        font-size: 13px;
+    }
+}
+
+/* --- 6. Sección "¿Por qué elegirnos?" en tablets y móviles --- */
+@media (max-width: 991px) {
+    .cooming_section .col-md-6.col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .cooming_section .col-md-6.col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .why-icon {
+        width: 50px;
+        height: 50px;
+    }
+    .why-title {
+        font-size: 16px;
+    }
+}
+
+/* ========== CORRECCIÓN DEL FOOTER (TABLET 768px) ========== */
+/* 
+   Problema: la columna del formulario tiene clase "col-md-12 col-lg-3".
+   En pantallas medianas (≥768px) ocupa el 100% del ancho y se va a una nueva fila,
+   dejando un espacio excesivo respecto a las otras dos columnas.
+   Solución: forzamos que en tablets (768px - 991px) esa columna también ocupe 1/3.
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer_section .col-md-12.col-lg-3 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+/* Ajuste adicional para móviles (ya tenías max-width:767px al 100%, pero refuerzo) */
+@media (max-width: 767px) {
+    .footer_section .col-md-4,
+    .footer_section .col-lg-3,
+    .footer_section .col-md-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+    }
+    .footer_section .row {
+        text-align: center;
+    }
+    .social-link {
+        justify-content: center;
+    }
+    .btn-whatsapp,
+    .btn-send-message {
+        display: block;
+        margin: 15px auto;
+    }
+}
+
+/* --- 7. Arreglo del iframe de Google Maps en móviles --- */
+@media (max-width: 575px) {
+    .maps_section iframe {
+        height: 300px;
+    }
+}
+
+/* --- 8. Modo oscuro toggle en móviles --- */
+@media (max-width: 575px) {
+    .dark-mode {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
